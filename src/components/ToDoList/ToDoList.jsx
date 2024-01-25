@@ -24,7 +24,7 @@ export default function ToDoList() {
 
   const handleRemoveTask = (taskId) => {
     removeTask(taskId);
-    toast.success("Tâche supprimé");
+    toast.success("Note supprimé");
   };
 
   const handleSaveEdit = (editedTask) => {

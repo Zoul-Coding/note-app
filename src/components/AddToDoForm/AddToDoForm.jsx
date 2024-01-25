@@ -28,7 +28,7 @@ export default function AddToDoForm({ onClose }) {
     setTasks([...tasks, newTask]);
     localStorage.setItem('tasks', JSON.stringify([...tasks, newTask]));
     setTimeout(() => {
-      toast.success("Tâche ajouté");
+      toast.success("Note ajouté");
     }, 1000);
     reset();
     onClose();
