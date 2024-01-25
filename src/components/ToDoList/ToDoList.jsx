@@ -45,7 +45,7 @@ export default function ToDoList() {
         {getTasksByCategory('Leçon quotidienne').length === 0 ? (
           <p className='text-center mt-8'>Aucune note</p>
         ) : (
-          getTasksByCategory('Exploration Quotidienne').map(task => (
+          getTasksByCategory('Leçon quotidienne').map(task => (
             <div key={task.id} className="w-full px-3 pt-3">
               <div className="bg-regal-gray p-2 rounded">
                 {editingTask && editingTask.id === task.id ? (
