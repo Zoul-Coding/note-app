@@ -120,7 +120,7 @@ export default function ToDoList() {
       <div className="bg-white w-full h-96 rounded-md overflow-y-auto scrollbar-thumb-blue-500 scrollbar-track-blue-200 shadow-lg">
         <div className="bg-regal-red">
           <div className="flex items-center justify-between header p-3 shadow-lg">
-            <h2 className='font-medium text-white'>Optimisation Continue</h2>
+            <h2 className='font-medium text-white'>Amélioration et succès</h2>
             <span className='text-base text-white'>Note ({getTasksByCategory('Amélioration et succès').length})</span>
           </div>
         </div>
